@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/dustbin.svg</file>
+        <file>res/ellipse.svg</file>
+        <file>res/hand.svg</file>
+        <file>res/rectangle.svg</file>
+        <file>res/triangle.svg</file>
+        <file>res/ralationship.svg</file>
+        <file>res/readFromFile.svg</file>
+        <file>res/saveToFile.svg</file>
+    </qresource>
+</RCC>
