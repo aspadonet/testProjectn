@@ -250,26 +250,23 @@ void Canvas::beginDrawFigure(QPoint pos)
     switch(ActiveFigure)
     {
         case FigureRectangle:
-        {
-            Figure* newF = new Rectangle(startPoint, endPoint);
-            newFigure = newF;
-            figuresVec.push_back(newF);
+        {           
+            newFigure = new Rectangle(startPoint, endPoint);
+            figuresVec.push_back(newFigure);
 
             break;
         }
         case FigureTriangle:
-        {
-            Figure* newF = new Triangle(startPoint, endPoint);
-            newFigure = newF;
-            figuresVec.push_back(newF);
+        {            
+            newFigure = new Triangle(startPoint, endPoint);
+            figuresVec.push_back(newFigure);
 
             break;
         }
         case FigureEllipse:
-        {
-            Figure* newF = new Ellipse(startPoint ,endPoint);
-            newFigure = newF;
-            figuresVec.push_back(newF);
+        {            
+            newFigure = new Ellipse(startPoint ,endPoint);
+            figuresVec.push_back(newFigure);
 
             break;
         }
